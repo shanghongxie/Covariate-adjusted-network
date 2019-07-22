@@ -1,0 +1,8 @@
+The code is written in R. 
+
+To implement the code, readers should install Rcpp and RcppEigen packages.
+
+The code for the proposed methodology is included in cNetworkC.cpp and cNetworkR.R. The arguments are described inside the code.
+
+SimGenerate.R includes the code to generate simulation data.
+SimSample.R provides an example of simulation study.
