@@ -7,9 +7,6 @@
 
 library(MASS)
 
-##############################################
-###  Gen 2:Different varying coefficients  ###
-##############################################
 ## delta: variance of covariate xi
 GenDataD <- function (n, p, q, kbeta, obeta, obeta0, delta,beta0,xbeta,mbeta,oeta) {
   
