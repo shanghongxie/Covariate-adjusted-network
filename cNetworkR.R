@@ -4,11 +4,12 @@
 ############# 1st stage  ###############
 #######################################
 
-LmNetwork_1st=function(X, M, tau=1, lambda=NULL, nlambda=10, rlambda=NULL, nfolds=1, foldid=NULL, t=10,  maxitOut=1e+5, maxitIn=1e+5, thresh=1e-6, threshIn=1e-7,itrunc=TRUE, standardize=FALSE, keep.coef=FALSE){
-
-  ### X: covariates;   M: biomarker nodes;   tau=1: lasso, tau=a where a<1 then sparse group lasso; t: stepsize; itrunc: hard-thresholding or not; standardize: standardize covariate or not;
+ ### X: covariates;   M: biomarker nodes;   tau=1: lasso, tau=a where a<1 then sparse group lasso; t: stepsize; itrunc: hard-thresholding or not; standardize: standardize covariate or not;
   ### maxitOut: maximum iterations among columns; maxitIn: maximum iterations inside a column; thresh: convergence threshold among columns: threshIn: convergence threshold inside a column;
   
+
+LmNetwork_1st=function(X, M, tau=1, lambda=NULL, nlambda=10, rlambda=NULL, nfolds=1, foldid=NULL, t=10,  maxitOut=1e+5, maxitIn=1e+5, thresh=1e-6, threshIn=1e-7,itrunc=TRUE, standardize=FALSE, keep.coef=FALSE){
+
   n=nrow(X); p=ncol(M); q=ncol(X)
   po=(p-1)*p/2; 
   
