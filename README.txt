@@ -1,4 +1,4 @@
-The code is for "Identifying Disease-Associated Biomarker Network Features Through Conditional Graphical Model" and is written in R. 
+The code is for "Identifying Disease-Associated Biomarker Network Features Through Conditional Graphical Model" and can be implemented in R. 
 
 To implement the code, users need install Rcpp and RcppEigen packages.
 
