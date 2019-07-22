@@ -1,5 +1,3 @@
-setwd("/Users/XSH/Dropbox/Research/2018/Covariate_dependent")
-
 rm(list=ls(all=TRUE))
 
 library(Rcpp)
@@ -48,11 +46,11 @@ oeta=c(1,0,0,0,2,0,0,0,0,0,rep(0,po-10))  ## coefficients for connections
 ###  Simulation - CV  ###
 #########################
 
-source("Code/SimGenerate.R")
+source("SimGenerate.R")
 
-sourceCpp("Code/cNetworkC.cpp")
+sourceCpp("cNetworkC.cpp")
 
-source("Code/cNetworkR.R") 
+source("cNetworkR.R") 
 
 tau=1; lambda=NULL; rlambda=NULL; nlambda=10; nfolds=10
 t=10; maxit=1e+5;
@@ -274,11 +272,11 @@ for (iSim in 1:nSim){
 ##############################
 
 ### MSE
-etamse=sum(apply((eta0s-oeta)^2,1,mean))  ##  2.044015 (500 lasso) 1.946903  (500 enet)  1.43796 (1000 lasso)  2.497011 (1000 enet)
+etamse=sum(apply((eta0s-oeta)^2,1,mean))  
 
 
-apply(eta0s!=0 & oeta!=0,2,sum); etatp=mean(apply(eta0s!=0 & oeta!=0,2,sum)); etatrue=sum(oeta!=0); etatotal=length(oeta)  ## 1.82 2 10 (500 lasso) 1.78 2 10  (500 enet) 1.9 2 10 (1000 lasso) 1.92 2 190 (1000 enet)
-apply(eta0s!=0 & oeta==0,2,sum); etafp=mean(apply(eta0s!=0 & oeta==0,2,sum))  ##  1.62  (500 lasso)  1.47 (500 enet) 1.3 (1000 lasso) 1.64 (1000 enet)
+etatp=mean(apply(eta0s!=0 & oeta!=0,2,sum)); 
+etafp=mean(apply(eta0s!=0 & oeta==0,2,sum)) 
 
 
 etatn=mean(apply(eta0s==0 & oeta==0,2,sum));
@@ -306,8 +304,6 @@ xbetafp=mean(apply(xbetas!=0 & xbeta==0,2,sum))
 
 xbetatn=mean(apply(xbetas==0 & xbeta==0,2,sum));
 xbetafn=mean(apply(xbetas==0 & xbeta!=0,2,sum)) 
-
-# mean((tpO*tnO-fpO*fnO)/sqrt(tpO+fpO)/sqrt(tpO+fnO)/sqrt(tnO+fpO)/sqrt(tnO+fnO))
 
 xbetatpM=apply(xbetas!=0 & xbeta!=0,2,sum)
 xbetatnM=apply(xbetas==0 & xbeta==0,2,sum)
