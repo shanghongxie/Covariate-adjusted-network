@@ -74,22 +74,16 @@ nSim=100
 m=list(); x=list(); y=list(); mi=list()
 sdm=list(); sdx=list(); sdmi=list()
 
-rejN=NULL
-
 for (iSim in 1:nSim) {
   cat(iSim)
   tmp=GenDataD(n,p,q,kbeta,obeta, obeta0, delta,beta0,xbeta,mbeta,oeta)
   M=tmp$M; X=tmp$X; Y=tmp$Y; MI=tmp$MI
   sdM=tmp$sdM; sdX=tmp$sdX; sdMI=tmp$sdMI
-  rejN=c(rejN, tmp$idv)
 
   m[[iSim]]=M; x[[iSim]]=X; y[[iSim]]=Y; mi[[iSim]]=MI; sdm[[iSim]]=sdM
   sdx[[iSim]]=sdX; sdmi[[iSim]]=sdMI
   
 }
-mean(rejN)
-rej=mean(rejN) 
-
 
 ################################
 ### 1st stage estimation  ######
