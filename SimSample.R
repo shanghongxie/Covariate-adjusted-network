@@ -7,9 +7,10 @@ library(RcppEigen)
 ##############################
 ###  Algorithm parameters  ###
 ##############################
-
+## n: sample size
 n=500; 
 
+## p: number of biomarker nodes; q: number of covariates; po: number of undirected edges; delta: variance of covariate xi
 p=5; q=5; po=(p-1)*p/2;delta=1
 
 
@@ -257,7 +258,7 @@ for (iSim in 1:nSim){
   ## mbeta mediators
   mbetas=cbind(mbetas,beta[(ncol(sdx[[iSim]])+1):(ncol(sdx[[iSim]])+ncol(sdm[[iSim]]))])
   
-  ## gamma
+  ## eta connections
   eta0=rep(0,po)
   eta0[index]=beta[(ncol(sdx[[iSim]])+ncol(sdx[[iSim]])+1):(ncol(sdx[[iSim]])+ncol(sdm[[iSim]])+ncol(sdmist))]
   
@@ -268,7 +269,7 @@ for (iSim in 1:nSim){
 
 
 ##############################
-###     MI (connections)   ###
+###    eta (connections)   ###
 ##############################
 
 ### MSE
@@ -316,7 +317,9 @@ xbetamccV=(xbetatpM*xbetatnM-xbetafpM*xbetafnM)/sqrt(xbetatpM+xbetafpM)/sqrt(xbe
 xbetamcc=mean(xbetamccV)
 
 
-### xbeta
+###################################
+###    mbeta (biomarker nodes)  ###
+###################################
 
 
 ## MSE
