@@ -10,7 +10,7 @@ Biomarkers are often organized into networks, in which the strengths of network 
 
 - Authors: **Shanghong Xie, Xiang Li,  Peter McColgan,  Rachael I. Scahill,  Donglin Zeng, and Yuanjia Wang**
 
-![](https://github.com/shanghongxie/Covariate-adjusted-network/blob/master/outline.png)
+<img src="https://github.com/shanghongxie/Covariate-adjusted-network/blob/master/outline.png" width="100" height="100">
 
 
 
