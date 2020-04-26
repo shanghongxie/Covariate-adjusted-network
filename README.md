@@ -9,9 +9,9 @@ Biomarkers are often organized into networks, in which the strengths of network 
 <br/> manuscript link: https://onlinelibrary.wiley.com/doi/10.1111/biom.13201
 
 - Authors: **Shanghong Xie, Xiang Li,  Peter McColgan,  Rachael I. Scahill,  Donglin Zeng, and Yuanjia Wang**
-
-<img src="https://github.com/shanghongxie/Covariate-adjusted-network/blob/master/outline.png" width="100" height="100">
-
+<p align="center">
+<img src="https://github.com/shanghongxie/Covariate-adjusted-network/blob/master/outline.png" width="500" height="600">
+</p>
 
 
 
