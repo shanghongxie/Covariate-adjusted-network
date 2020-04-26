@@ -17,7 +17,7 @@ Biomarkers are often organized into networks, in which the strengths of network 
 
 ## Setup Requirements
 - R
-- install Rcpp and RcppEigen packages
+- Install Rcpp and RcppEigen packages
 
 ## Code Instructions
 
