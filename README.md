@@ -8,7 +8,7 @@ Biomarkers are often organized into networks, in which the strengths of network 
 - Title: **Identifying Disease-Associated Biomarker Network Features Through Conditional Graphical Model**
 <br/> manuscript link: https://onlinelibrary.wiley.com/doi/10.1111/biom.13201
 
-- Authors: **Shanghong Xie, Xiang Li,  Peter McColgan,  Rachael I. Scahill,  Donglin Zeng, and Yuanjia Wang**
+- Authors: **Shanghong Xie (sx2168@cumc.columbia.edu), Xiang Li,  Peter McColgan,  Rachael I. Scahill,  Donglin Zeng, and Yuanjia Wang**
 <p align="center">
 <img src="https://github.com/shanghongxie/Covariate-adjusted-network/blob/master/outline.png" width="500" height="600">
 </p>
