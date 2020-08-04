@@ -16,7 +16,7 @@ Biomarkers are often organized into networks, in which the strengths of network 
 - Affiliations: 
  + 1. **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York**
  + 2. **Statistics and Decision Sciences, Janssen Research & Development, LLC, Raritan, New Jersey **
- + 3. **Huntington’s Disease Centre, Department of Neurodegenerative Disease, UCL Institute of Neurology, London, UK **
+ + 3. **Huntington’s Disease Centre, Department of Neurodegenerative Disease, UCL Institute of Neurology, London, UK**
  + 4. **Department of Biostatistics, University of North Carolina, Chapel Hill, North Carolina**
  + 5. **Department of Psychiatry, Columbia University Medical Center, New York**
 
