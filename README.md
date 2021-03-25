@@ -6,7 +6,7 @@
 Biomarkers are often organized into networks, in which the strengths of network connections vary across subjects depending on subject‐specific covariates (eg, genetic variants). Variation of network connections, as subject‐specific feature variables, has been found to predict disease clinical outcome. In this work, we develop a two‐stage method to estimate biomarker networks that account for heterogeneity among subjects and evaluate network's association with disease clinical outcome. 
 
 - Title: **Identifying Disease-Associated Biomarker Network Features Through Conditional Graphical Model**
-<br/> [Manuscript](https://onlinelibrary.wiley.com/doi/10.1111/biom.13201): Biometrics 76 (3)(2020)995-1006
+<br/> [Manuscript](https://onlinelibrary.wiley.com/doi/10.1111/biom.13201): Biometrics 76 (3)(2020) 995-1006
 
 - Authors: **Shanghong Xie<sup>a</sup> (sx2168@cumc.columbia.edu), Xiang Li<sup>b</sup>,  Peter McColgan<sup>c</sup>,  Rachael I. Scahill<sup>c</sup>,  Donglin Zeng<sup>d</sup>, and Yuanjia Wang<sup>a,e</sup>**
 
