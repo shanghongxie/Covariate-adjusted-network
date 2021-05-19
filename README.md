@@ -8,7 +8,7 @@ Biomarkers are often organized into networks, in which the strengths of network 
 - Title: **Identifying Disease-Associated Biomarker Network Features Through Conditional Graphical Model**
 <br/> [Manuscript](https://onlinelibrary.wiley.com/doi/10.1111/biom.13201): Biometrics 76 (2020): 995-1006
 
-- Authors: **Shanghong Xie<sup>a</sup> (sx2168@cumc.columbia.edu), Xiang Li<sup>b</sup>,  Peter McColgan<sup>c</sup>,  Rachael I. Scahill<sup>c</sup>,  Donglin Zeng<sup>d</sup>, and Yuanjia Wang<sup>a,e</sup>**
+- Authors: **Shanghong Xie<sup>a</sup> (sx2168@columbia.edu), Xiang Li<sup>b</sup>,  Peter McColgan<sup>c</sup>,  Rachael I. Scahill<sup>c</sup>,  Donglin Zeng<sup>d</sup>, and Yuanjia Wang<sup>a,e</sup>**
 
 - Affiliations: 
    + 1. **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York**
