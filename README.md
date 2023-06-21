@@ -29,10 +29,19 @@ Biomarkers are often organized into networks, in which the strengths of network 
 
 ## Code Instructions
 
-The code for the proposed methodology is included in cNetworkC.cpp and cNetworkR.R. The arguments are described inside the code.
+The code for the proposed methodology is included in **cNetworkC.cpp** and **cNetworkR.R**. Source the two files to implement the method. The arguments are described inside the code. 
 
-The main function for first stage is LmNetwork_1st and the main function for second stage is EnetLm.
+sourceCpp("cNetworkC.cpp")
 
-SimGenerate.R includes the code to generate simulation data.
+source("cNetworkR.R") 
 
-SimSample.R provides an example of simulation study.
+### Main functions
+
+- **LmNetwork_1st**: 1st stage of the proposed approach to estimate subject-specific networks.
+- 
+- **EnetLm**: 2nd stage of the proposed approach to assess the assocation between subject-specific network connections with the clinical outcome.
+
+### Examples
+- **SimGenerate.R** includes the code to generate simulation data.
+
+- **SimSample.R** provides an example of simulation study.
