@@ -38,7 +38,7 @@ source("cNetworkR.R")
 ### Main functions
 
 - **LmNetwork_1st**: 1st stage of the proposed approach to estimate subject-specific networks.
-- 
+ 
 - **EnetLm**: 2nd stage of the proposed approach to assess the assocation between subject-specific network connections with the clinical outcome.
 
 ### Examples
